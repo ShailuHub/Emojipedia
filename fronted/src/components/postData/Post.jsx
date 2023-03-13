@@ -34,7 +34,6 @@ function Post() {
     setMeaning("");
   }
 
-  const navigate = useNavigate();
   function goBack() {
     setOnSucess(false);
   }
@@ -85,6 +84,7 @@ function Post() {
                 onChange={(event) => {
                   setMeaning(event.target.value);
                 }}
+                placeholder="description"
               ></textarea>
               <div className="controller">
                 <button type="submit" id="post-btn" className="submit">
