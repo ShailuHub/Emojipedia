@@ -1,0 +1,11 @@
+backend/node_modules
+backend/build
+backend/npm-debug.log
+backend/.nyc
+backend/.env
+backend/.DS_Store
+fronted/node_modules
+
+
+
+**/.env

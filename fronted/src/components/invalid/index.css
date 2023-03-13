@@ -1,0 +1,33 @@
+.invalid-container {
+  margin-bottom: 50px;
+  background-color: var(--clr-primary-4);
+  padding: 8px;
+  color: var(--clr-white);
+  border-radius: var(--radius);
+  box-shadow: var(--dark-shadow);
+}
+.invalid-container div {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  align-items: center;
+}
+.cross,
+.tick {
+  color: var(--clr-white);
+  border: 1px solid var(--clr-white);
+  padding: 5px;
+  border-radius: var(--radius);
+}
+.cross:hover {
+  color: red;
+  transition: var(--transition);
+}
+
+.tick {
+  color: var(--clr-white);
+  border: 1px solid var(--clr-white);
+  padding: 5px;
+  border-radius: var(--radius);
+  background-color: green;
+}

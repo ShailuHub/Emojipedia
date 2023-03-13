@@ -1,0 +1,60 @@
+h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: var(--clr-white);
+  text-shadow: var(--light-shadow);
+  line-height: 1.2;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 90px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  padding: 20px;
+  background-color: var(--clr-primary-4);
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+}
+
+.input::placeholder {
+  color: var(--clr-grey-8);
+}
+.input {
+  font-size: 20px;
+  margin: 5px 0;
+  outline: none;
+  padding-left: 5px;
+  padding: 12px;
+  border-radius: var(--radius);
+  background-color: var(--clr-primary-4);
+  color: var(--clr-white);
+  letter-spacing: var(--spacing);
+  border: 2px solid var(--clr-white);
+}
+
+.submit {
+  width: 30%;
+  margin-top: 10px;
+  background-color: inherit;
+  border-radius: var(--radius);
+  padding: 5px;
+  font-size: 20px;
+  border: 2px solid var(--clr-white);
+  color: var(--clr-white);
+}
+
+.submit:hover {
+  background-color: var(--clr-primary-3);
+  transition: var(--transition);
+}
